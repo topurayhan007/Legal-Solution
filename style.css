@@ -1,0 +1,42 @@
+/* Common Style Section */
+:root {
+  --primary-color: #b68c5a;
+  --primary-text-color: #414040;
+  --secondary-text-color: #707070;
+  --card-bg-color: #f3f3f3;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: "EB Garamond", serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", serif;
+  color: var(--primary-text-color);
+}
+p,
+input {
+  color: var(--secondary-text-color);
+}
+
+.primary-btn {
+  color: white;
+  background: var(--primary-color);
+  
+}
+
+/* Navigation Section */
+.navbar-brand {
+  color: var(--primary-text-color);
+  font-family: "EB Garamond", serif;
+  font-size: 35px;
+}
+.nav-link {
+  color: var(--secondary-text-color) !important;
+}
