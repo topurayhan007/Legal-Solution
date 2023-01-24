@@ -194,7 +194,9 @@
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
-          <div class="col py-5 border-bottom border-end bg-secondary-subtle">
+          <div
+            class="col py-5 border-bottom border-end bg-secondary-subtle py-4"
+          >
             <img src="images/criminal.png" alt="Icon" class="pb-3" />
             <h3 class="fw-bold pb-3">Criminal Law</h3>
             <p class="pb-3">
@@ -304,11 +306,11 @@
           </div>
           <div class="carousel-inner rounded-3">
             <div class="carousel-item slider-item position-relative">
-              <div class="position-absolute translate-middle top-50 start-50">
-                <img src="images/client.png" class="img-fluid pb-sm-3" alt="" />
+              <div class="py-3">
+                <img src="images/client.png" class="pb-sm-3" alt="" />
                 <h5 class="fw-bold text-white">Topu Rayhan</h5>
                 <p class="pb-sm-2 text-white-50">Web Developer</p>
-                <p class="pb-sm-3 text-white d-none d-lg-block">
+                <p class="pb-sm-3 text-black">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
@@ -318,17 +320,16 @@
               </div>
               <img
                 src="images/slider-1.jpg"
-                class="d-block w-100 position-absolute translate-middle top-50 start-50 object-fit-cover z-n1"
+                class="d-block img-fluid object-fit-contain position-absolute start-0 top-0 z-n1"
                 alt="Slide Image"
               />
-              <img src="images/Rectangle-7.png" class="d-block w-100 z-1" />
             </div>
             <div class="carousel-item slider-item position-relative active">
               <div class="position-absolute translate-middle top-50 start-50">
                 <img src="images/client.png" class="img-fluid pb-sm-3" alt="" />
                 <h5 class="fw-bold text-white">Imran Syam</h5>
                 <p class="pb-sm-2 text-white-50">Data Scientist</p>
-                <p class="pb-sm-3 text-white d-none d-lg-block">
+                <p class="pb-sm-3 text-white">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
@@ -348,7 +349,7 @@
                 <img src="images/client.png" class="img-fluid pb-sm-3" alt="" />
                 <h5 class="fw-bold text-white">Awlad Hossain</h5>
                 <p class="pb-sm-2 text-white-50">UIX Designer</p>
-                <p class="pb-sm-3 text-white d-none d-lg-block">
+                <p class="pb-sm-3 text-white">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
@@ -382,6 +383,142 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="my-5 py-5 text-center">
+        <h2 class="fw-bold pb-3">Frequently Asked Any Questions</h2>
+        <p class="pb-5">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority
+          <br />
+          have suffered alteration in some form, by injected humour.
+        </p>
+
+        <div
+          class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-4 justify-content-center align-items-center"
+        >
+          <div class="col order-1 order-md-1">
+            <!-- Accordion Section -->
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button fw-bold bg-secondary-subtle py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What is the difference between flexbox and grid?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-start">
+                    Flexbox and Grid are both used to design layout. However,
+                    flexbox is one dimentional i.e. it can be either row-wise or
+                    column-wise. On the other hand, grid layouts are two
+                    dimentional which means we can use both row and column at
+                    the same time. Grid are more useful in designing complex
+                    layouts more easily.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed fw-bold bg-secondary-subtle py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What is the purpose of media query?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-start">
+                    The purpose of media query is to make the website usable in
+                    different devices i.e. making the website responsive. They
+                    work by specifiying certain width or breakpoints and styling
+                    the components based on that width range.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed fw-bold bg-secondary-subtle py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What is the CSS box model? And how does it work?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-start">
+                    CSS box model is a model that is used to understand the
+                    design of a html element. The box model consist of few
+                    attributes which can be assigned to a element or tag to
+                    design as we like. The box model consist of the element,
+                    padding, border, and margin in a progressive distant manner
+                    from the element.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed fw-bold bg-secondary-subtle py-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What is a semantic tag?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Semantic tags are meaningful tags which can be easily
+                    interpreted without the need of understanding. For example:
+                    aside, header, footer, article, section are some semantic
+                    tags which were introduced in HTML 5.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col order-0 order-md-1">
+            <img src="images/faq.png" class="img-fluid w-100" alt="FAQ Image" />
+          </div>
         </div>
       </section>
     </main>
