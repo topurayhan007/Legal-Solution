@@ -306,11 +306,18 @@
           </div>
           <div class="carousel-inner rounded-3">
             <div class="carousel-item slider-item position-relative">
-              <div class="py-3">
+              <img
+                src="images/slider-1.jpg"
+                class="d-block w-100 img-fluid slider-image"
+                alt="Slide Image"
+              />
+              <div
+                class="carousel-caption slider-caption top-0 mt-5 py-md-3 py-2"
+              >
                 <img src="images/client.png" class="pb-sm-3" alt="" />
                 <h5 class="fw-bold text-white">Topu Rayhan</h5>
                 <p class="pb-sm-2 text-white-50">Web Developer</p>
-                <p class="pb-sm-3 text-black">
+                <p class="pb-sm-3 text-white">
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
@@ -318,14 +325,17 @@
                   looked up one of the more obscure Latin words, consectetur.
                 </p>
               </div>
+            </div>
+
+            <div class="carousel-item slider-item position-relative active">
               <img
-                src="images/slider-1.jpg"
-                class="d-block img-fluid object-fit-contain position-absolute start-0 top-0 z-n1"
+                src="images/slider-2.jpg"
+                class="d-block w-100 img-fluid slider-image"
                 alt="Slide Image"
               />
-            </div>
-            <div class="carousel-item slider-item position-relative active">
-              <div class="position-absolute translate-middle top-50 start-50">
+              <div
+                class="carousel-caption slider-caption top-0 mt-5 py-md-3 py-2"
+              >
                 <img src="images/client.png" class="img-fluid pb-sm-3" alt="" />
                 <h5 class="fw-bold text-white">Imran Syam</h5>
                 <p class="pb-sm-2 text-white-50">Data Scientist</p>
@@ -337,15 +347,17 @@
                   looked up one of the more obscure Latin words, consectetur.
                 </p>
               </div>
+            </div>
+
+            <div class="carousel-item slider-item position-relative">
               <img
-                src="images/slider-2.jpg"
-                class="d-block w-100 position-absolute translate-middle top-50 start-50 object-fit-cover z-n1"
+                src="images/slider-3.jpg"
+                class="d-block w-100 img-fluid slider-image"
                 alt="Slide Image"
               />
-              <img src="images/Rectangle-7.png" class="d-block w-100 z-1" />
-            </div>
-            <div class="carousel-item slider-item position-relative">
-              <div class="position-absolute translate-middle top-50 start-50">
+              <div
+                class="carousel-caption slider-caption top-0 mt-5 py-md-3 py-2"
+              >
                 <img src="images/client.png" class="img-fluid pb-sm-3" alt="" />
                 <h5 class="fw-bold text-white">Awlad Hossain</h5>
                 <p class="pb-sm-2 text-white-50">UIX Designer</p>
@@ -357,12 +369,6 @@
                   looked up one of the more obscure Latin words, consectetur.
                 </p>
               </div>
-              <img
-                src="images/slider-3.jpg"
-                class="d-block w-100 position-absolute translate-middle top-50 start-50 object-fit-cover z-n1"
-                alt="Slide Image"
-              />
-              <img src="images/Rectangle-7.png" class="d-block w-100 z-1" />
             </div>
           </div>
           <button
@@ -532,29 +538,33 @@
           have suffered alteration in some form, by injected humour.
         </p>
 
-        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-4 g-md-5 px-2 px-md-0 align-items-center">
+        <div
+          class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-4 g-md-5 px-2 px-md-0 align-items-center"
+        >
           <div class="col order-1 order-md-0">
             <div class="row row-cols-1 row-cols-md-2">
-              <div class="col py-4 border-bottom border-end bg-secondary-subtle">
-                <img src="images/address.png" alt="Icon">
+              <div
+                class="col py-4 border-bottom border-end bg-secondary-subtle"
+              >
+                <img src="images/address.png" alt="Icon" />
                 <h3 class="pb-3 pt-3">Address</h3>
                 <p>A108 Adam Street,</p>
                 <p>New York, NY 535022</p>
               </div>
               <div class="col py-4 border-bottom bg-secondary-subtle">
-                <img src="images/call.png" alt="">
+                <img src="images/call.png" alt="" />
                 <h3 class="pb-3 pt-3">Call Us</h3>
                 <p>+88 01750 00 00 00</p>
                 <p>+88 01750 00 00 00</p>
               </div>
               <div class="col py-4 border-end bg-secondary-subtle">
-                <img src="images/email.png" alt="">
+                <img src="images/email.png" alt="" />
                 <h3 class="pb-3 pt-3">Email Us</h3>
                 <p>info@gmail.com</p>
                 <p>info@gmail.com</p>
               </div>
               <div class="col py-4 bg-secondary-subtle">
-                <img src="images/time.png" alt="">
+                <img src="images/time.png" alt="" />
                 <h3 class="pb-3 pt-3">Working Hours</h3>
                 <p>Mon-Fri: 9AM to 5PM</p>
                 <p>Sunday: 9AM to 1 PM</p>
@@ -563,16 +573,46 @@
           </div>
           <div class="col order-0 order-md-1">
             <form action="">
-              <input type="text" name="text" placeholder="Your Name" id="" class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3">
-              <input type="email" name="email" placeholder="Your Email" id="" class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3">
-              <input type="text" name="text" placeholder="Subject" id="" class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3">
-              <textarea name="message" id="message" cols="30" rows="6" placeholder="You Message" class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3"></textarea>
-              
-              <button type="button" class="btn primary-btn w-100 d-block border-0 py-3">Send Message</button>
+              <input
+                type="text"
+                name="text"
+                placeholder="Your Name"
+                id=""
+                class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                id=""
+                class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3"
+              />
+              <input
+                type="text"
+                name="text"
+                placeholder="Subject"
+                id=""
+                class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3"
+              />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="6"
+                placeholder="You Message"
+                class="bg-secondary-subtle w-100 border-0 rounded-2 ps-3 py-3 mb-3"
+              ></textarea>
+
+              <button
+                type="button"
+                class="btn primary-btn w-100 d-block border-0 py-3"
+              >
+                Send Message
+              </button>
             </form>
-            
           </div>
         </div>
+      </section>
     </main>
 
     <!-- Footer Section -->
@@ -580,64 +620,64 @@
       <section class="container">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 text-white">
           <div class="col mb-5 mb-md-0">
-            <img src="images/logo.png" class="img-fluid pb-4" alt="">
+            <img src="images/logo.png" class="img-fluid pb-4" alt="" />
             <p class="text-white">
-              There are many variations of 
-              <br> passages of Lorem Ipsum 
-              <br> available, but the majority have
-              <br> suffered alteration in some 
-              <br> form, by injected humour.
+              There are many variations of
+              <br />
+              passages of Lorem Ipsum <br />
+              available, but the majority have <br />
+              suffered alteration in some <br />
+              form, by injected humour.
             </p>
           </div>
           <div class="col mb-5 mb-md-0">
-            <h3 class="pb-4 text-white">
-              Useful Link
-            </h3>
+            <h3 class="pb-4 text-white">Useful Link</h3>
             <ul class="list-unstyled">
-               <li>Home</li>
-               <li>About Us</li>
-               <li>Cases</li>
-               <li>Blog</li>
-               <li>Contact US</li>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Cases</li>
+              <li>Blog</li>
+              <li>Contact US</li>
             </ul>
           </div>
           <div class="col mb-5 mb-md-0">
-            <h3 class="pb-4 text-white">
-              Contact Now
-            </h3>
+            <h3 class="pb-4 text-white">Contact Now</h3>
             <p class="text-white">
-                    555 4th 5t NW, Washington 
-              <br>DC 20530, United States 
-              <br>
-              <br>+88 01750 00 00 00
-              <br>+88 01750 00 00 00
-              <br>
-              <br>info@gmail.com
-              <br>info@gmail.com
+              555 4th 5t NW, Washington
+              <br />DC 20530, United States
+              <br />
+              <br />+88 01750 00 00 00 <br />+88 01750 00 00 00
+              <br />
+              <br />info@gmail.com <br />info@gmail.com
             </p>
-            
           </div>
           <div class="col mb-5 mb-md-0">
-            <h3 class="pb-4 text-white">
-              Subscribe
-            </h3>
+            <h3 class="pb-4 text-white">Subscribe</h3>
             <p class="text-white">
-              Subscribe for our latest & 
-              <br> Articles. We Won’t Give You 
-              <br> Spam Mails
+              Subscribe for our latest &
+              <br />
+              Articles. We Won’t Give You <br />
+              Spam Mails
             </p>
             <div class="d-flex">
-              <input type="email" name="email" id="email" placeholder="Email Address" class="py-3 me-0 pe-0 ps-3 rounded-2 border-0 border-end-0 rounded-end-0 d-block">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                class="py-3 me-0 pe-0 ps-3 rounded-2 border-0 border-end-0 rounded-end-0 d-block"
+              />
 
-              <button type="button" class="btn primary-btn rounded-2 rounded-start-0 text-white py-3 px-4 text-white">
+              <button
+                type="button"
+                class="btn primary-btn rounded-2 rounded-start-0 text-white py-3 px-4 text-white"
+              >
                 <i class="fa-regular fa-paper-plane"></i>
               </button>
             </div>
           </div>
         </div>
-
       </section>
-
     </footer>
 
     <!-- Bootstarp CDN JS link -->

@@ -49,3 +49,19 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Carousel Section */
+.slider-item {
+  height: 500px;
+}
+.slider-image {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+}
+
+@media screen and (max-width: 566px) {
+  .slider-item {
+    height: 600px;
+  }
+}
